@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        .block1{
+            height: 20px;
+            display: flex;
+            padding:20px;
+            gap: 50px;
+            background-color: rgb(29, 31, 30);
+            color: aliceblue;
+            cursor: pointer;
+        }
+        
+        
+        #curs:hover{
+            background-color: black;
+            border-color: black;
+            border-radius: 10px;
+            
+            
+        }
+        
+        
+        #drop{
+            position: fixed;
+            top: 25px;
+        }
+        #get{
+            position: fixed;
+            top: 25px;
+            right: 335px;
+            color: rgb(54, 9, 143);
+        }
+        #search{
+            position: fixed;
+            top: 25px;
+            right: 560px;
+            color: black;
+        }
+        #code{
+            position: fixed;
+            top: 25px;
+            right: 435px;
+            color: rgb(54, 9, 143);
+        }
+        input{
+            position: relative;
+            bottom: 10px;
+            height: 30px;
+           outline: 0;
+           border-radius: 20px;
+           border-color: whitesmoke;
+
+        }
+        .sign{
+            width: 80px;
+           background-color: darkgreen;
+           text-align: center;
+           /* margin-top: 10px; */
+           /* padding: 1px; */
+           border-style:  2px solid;
+           border-color: darkgreen;
+           border-radius: 10px;
+        }
+        .log{
+            align-content: end;
+            /* width: 40px; */
+           background-color: rgb(223, 232, 223);
+           color: black;
+           text-align: center;
+           /* margin-top: 10px; */
+           /* padding: 6px; */
+           /* border-style:  2px solid; */
+           /* border-color: rgb(219, 228, 219); */
+           border-radius: 10px;
+
+        }
+        .block2{
+            background-color: rgb(83, 87, 87);
+            display: flex;
+            gap: 40px;
+            overflow-x: scroll;
+            scrollbar-width: none;
+            cursor: pointer;
+            color: white;
+            height: 40px;
+            padding: 0px;
+            text-align: center;
+               
+        }
+        .item{
+            padding: 5px;
+            margin: 5px;
+
+        }
+        .item:hover{
+            background-color: black;
+            opacity: 0.5;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="block1">
+        <div ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJPZAINpYal7ohM_CfFR8yWuQfYpCdP1sCYg&s" width="25px" alt=""></div>
+        <div id="curs">Tutorials <span id="drop" class="material-symbols-outlined">
+            arrow_drop_down
+            </span> </div>
+       
+        <div id="curs">Excercises<span id="drop" class="material-symbols-outlined">
+            arrow_drop_down
+            </span>  </div>
+        <div id="curs">Certificates <span id="drop" class="material-symbols-outlined">
+            arrow_drop_down
+            </span>  </div>
+        <div id="curs">Services <span id="drop" class="material-symbols-outlined">
+            arrow_drop_down
+            </span>  </div>
+        <div><input type="text" placeholder="Search...."> <span id="search" class="material-symbols-outlined">
+            search
+            </span></div>
+        <div><span class="material-symbols-outlined">
+            contrast
+            </span></div>
+        <div id="curs"><span id="code" class="material-symbols-outlined">
+            code_off
+            </span> Spaces</div>
+        <div id="curs"> <span id="get" class="material-symbols-outlined">
+            shopping_cart
+            </span> Get certified</div>
+        <div id="curs" class="sign">Sign up</div>
+        <div id="curs" class="log">Log in</div>
+
+    </div>
+    <div class="block2">
+        <div class="item">HTML</div>
+        <div class="item">CSS</div>
+        <div class="item">JAVASRIPT</div>
+        <div class="item">SQL</div>
+        <div class="item">BOOTSTRAMP</div>
+        <div class="item">REACT</div>
+        <div class="item">PYTHON</div>
+        <div class="item">JAVA</div>
+        <div class="item">PHP</div>
+        <div class="item">.NTE</div>
+        <div class="item">C</div>
+        <div class="item">C++</div>
+        <div class="item">ASP</div>
+        <div class="item">MYSQL</div>
+        <div class="item">LARAVE</div>
+        <div class="item">AWS</div>
+
+    </div>
+</body>
+</html>
